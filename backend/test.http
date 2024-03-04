@@ -1,0 +1,31 @@
+POST http://localhost:1234/insert
+Content-Type: application/json
+
+{
+ "facultyname":"kanish",
+"date":"2024-04-05",
+"purpose":"reading"
+}
+
+
+###
+GET http://localhost:1234/read
+###
+
+POST http://localhost:1234/enter
+Content-Type: application/json
+
+{
+"academic_year":"2023-02-04",
+"semester":"even semester",
+"name_of_the_faculty":"kalai",
+"nature_of_guidance":"ml",
+"duration_from":"2023-02-05",
+"duration_to":"2023-05-24",
+"no_of_students":"54",
+"name_of_the_student":"kalaipriyan",
+"certificate":"blob"
+}
+
+###
+GET http://localhost:1234/record
