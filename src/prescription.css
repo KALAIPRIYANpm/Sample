@@ -1,0 +1,51 @@
+.prescription-container {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.61);
+  }
+  
+  .prescription-title {
+    text-align: center;
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #f88e55;
+  }
+  
+  .title-divider {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0;
+  }
+  
+  .prescription-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .prescription-table th {
+    background-color: #f38585;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 12px;
+    text-align: left;
+    font-size: larger;
+  }
+  
+  .prescription-table td {
+    padding: 12px;
+    font-size: 1.1em;
+    
+  }
+  
+  .prescription-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .prescription-table tr:hover {
+    background-color: #ddd;
+  }
